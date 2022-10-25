@@ -1,2 +1,8 @@
-Anna An, han10, EE61B4
-Daniel Ra, dra1, BE70E9
+*This program is the midterm project for Intermediate Programming course. 
+
+This program will be an image processing program, in the vein of Photoshop! 
+It will have a command-line-based user interface (UI), so there will be no graphical interface, 
+and the range of operations will be limited, but the algorithms you will use are similar to the ones used in programs like Photoshop or GIMP.
+
+At a basic level, your program will be able to read image files from disk, perform one of a variety of image processing tasks, 
+and then write the result back to disk as a new image file. 
