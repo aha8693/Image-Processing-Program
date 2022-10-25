@@ -1,0 +1,211 @@
+commit 63dcdf6cb32f82c07f913e26a55703dc206eaf33
+Author: Anna An <han10@jhu.edu>
+Date:   Mon Oct 24 17:01:05 2022 -0400
+
+    midterm project almost done except Valgrind, style, maybe error
+
+commit 2118c37647dff29dce4369e24c1ca3f8faf448e2
+Author: Daniel Ra <dra1@jhu.edu>
+Date:   Mon Oct 24 13:11:05 2022 -0400
+
+    All functions work for image_manip.c, Fixed free_image function in ppm_io.c, Have to work on returning for errors in project.c
+
+commit 34acc73e24d82e3492b9d6a906455e0a78965df4
+Author: Anna An <han10@jhu.edu>
+Date:   Mon Oct 24 10:28:19 2022 -0400
+
+    edge detection edge case resolved, done for now
+
+commit 31048742a1a81e8e795666fa124b83af515f335e
+Author: Anna An <han10@jhu.edu>
+Date:   Mon Oct 24 10:17:23 2022 -0400
+
+    swirl core dump resolved, weird image created
+
+commit 546a12f7a606d148feba21113fa089ccaed13f49
+Author: Anna An <han10@jhu.edu>
+Date:   Mon Oct 24 09:04:13 2022 -0400
+
+    edge detection done except the edge of pic
+
+commit 3ee54e3c8faac19f2cabd567bc73d5394fad2ee0
+Author: Anna An <han10@jhu.edu>
+Date:   Mon Oct 24 08:36:38 2022 -0400
+
+    edge detection core dump fixed -- edge case
+
+commit bd1948fcfb81f67a81260778061545892008d19e
+Author: Daniel Ra <dra1@jhu.edu>
+Date:   Mon Oct 24 00:55:22 2022 -0400
+
+    Added img_cmp and -lm flag to project target in Makefile, Added swirl and edge detection to image_manip.c and image_manip.h but cannot get them to work in project.c
+
+commit 7201f40a23d648b2b0b82ab3a5605aff4f3203b0
+Merge: 8954456 60a69c4
+Author: Daniel Ra <dra1@jhu.edu>
+Date:   Sun Oct 23 22:01:59 2022 -0400
+
+    Merge branch 'master' of https://github.com/jhu-ip/2022-fall-midterm-han10-dra1
+    Update local repo for image_manip.c and image_manip.h
+
+commit 8954456cb66b1f18e32f2da2df5d99549af19ffa
+Author: Daniel Ra <dra1@jhu.edu>
+Date:   Sun Oct 23 22:01:47 2022 -0400
+
+    Added swirl function
+
+commit 0cb2593db9fb82bb902a980dabdf65fffe1f93d7
+Author: Daniel Ra <dra1@jhu.edu>
+Date:   Sun Oct 23 22:01:05 2022 -0400
+
+    Started swirl function
+
+commit 60a69c46de1a1649985772c60e559ea920687adf
+Author: Anna An <han10@jhu.edu>
+Date:   Sun Oct 23 19:18:23 2022 -0400
+
+    zoom-out function done for now
+
+commit 987a2ac2f54f9093af51e4d6cc41ad738b4021bd
+Author: Anna An <han10@jhu.edu>
+Date:   Sat Oct 22 13:10:16 2022 -0400
+
+    good looking for swap and rotate right, need revise for invert; main finished
+
+commit 2af6aa608c3e449977060946e96c2afde77aa456
+Author: Anna An <han10@jhu.edu>
+Date:   Sat Oct 22 10:18:17 2022 -0400
+
+    first image created
+
+commit e822097f657f6864b7e8f281bcbb851f55fe168f
+Author: Anna An <han10@jhu.edu>
+Date:   Sat Oct 22 10:15:41 2022 -0400
+
+    Revised manip output style, edit write_ppm
+
+commit 7af4b36cb37caf8feaf128f7de7618145e500a43
+Author: Daniel Ra <dra1@jhu.edu>
+Date:   Sat Oct 22 01:24:27 2022 -0400
+
+    Stuck on project.c fail to open .ppm file
+
+commit 0872c6c4ad84c3ed7f1b822216a412b8082a6a03
+Author: Daniel Ra <dra1@jhu.edu>
+Date:   Fri Oct 21 19:41:56 2022 -0400
+
+    Made project.c first compiling version but it gets segmentation fault (core dumped) error when you try to run it
+
+commit 0e907eedc60abdff576865c47c6177c9f665a627
+Author: Daniel Ra <dra1@jhu.edu>
+Date:   Fri Oct 21 15:29:32 2022 -0400
+
+    First draft of project.c without use of freeing
+
+commit eea3979c6c336eef813ab3d08c3edbe23e358221
+Author: Anna An <han10@jhu.edu>
+Date:   Fri Oct 21 12:28:39 2022 -0400
+
+    header file added
+
+commit 1cbc8702385906b3a81b0d1fffabdfaea7b67ef5
+Author: Anna An <han10@jhu.edu>
+Date:   Fri Oct 21 12:24:45 2022 -0400
+
+    rotate_right added
+
+commit c0ef37ffdeafaa47e56b155bca1b4b953a7df921
+Author: Anna An <han10@jhu.edu>
+Date:   Fri Oct 21 11:11:45 2022 -0400
+
+    swap and invert first try
+
+commit 722a25709de48019c4b17e3e25fe6c4693be29cb
+Author: Daniel Ra <dra1@jhu.edu>
+Date:   Thu Oct 20 21:02:18 2022 -0400
+
+    Compiling version of ppm_io.c but not tested yet
+
+commit 806e4fadee19039539902a5cb19bd3277f95e08f
+Author: Daniel Ra <dra1@jhu.edu>
+Date:   Thu Oct 20 13:13:54 2022 -0400
+
+    Added checkerboard
+
+commit 9573d831094c2f2dacad8c4254f7755b15cf013a
+Author: Daniel Ra <dra1@jhu.edu>
+Date:   Thu Oct 20 13:05:41 2022 -0400
+
+    Finished Makefile
+
+commit 0e06c213d26357fc8738aa9d3fc4c84ebbb8f180
+Author: Daniel Ra <dra1@jhu.edu>
+Date:   Thu Oct 20 12:41:14 2022 -0400
+
+    First draft of all functions (need to test still)
+
+commit 6159f38606663b559583cb0bf9ba332d51b3d4f2
+Author: Daniel Ra <dra1@jhu.edu>
+Date:   Wed Oct 19 21:58:57 2022 -0400
+
+    Did first draft of resize_image while free_image needs to be worked on
+
+commit dfc62646839cd7bd0525ce4cab5bcb98f52e3acd
+Author: Daniel Ra <dra1@jhu.edu>
+Date:   Wed Oct 19 21:00:39 2022 -0400
+
+    Finished first draft of write_ppm
+
+commit 295886bd51c656a86004e91dd282fad7d95f50b1
+Author: Daniel Ra <dra1@jhu.edu>
+Date:   Wed Oct 19 19:46:01 2022 -0400
+
+    results/ directory starter
+
+commit 803651c611eb1835076757c69ba8fc0ce8a19107
+Author: Daniel Ra <dra1@jhu.edu>
+Date:   Wed Oct 19 19:45:18 2022 -0400
+
+    project.c starter code
+
+commit adfddff3f4ca5cde8e6581507f75b58b7bbac0aa
+Author: Daniel Ra <dra1@jhu.edu>
+Date:   Wed Oct 19 19:45:01 2022 -0400
+
+    ppm_io.h starter code
+
+commit 5e7585ce7a5d83d1d38f6ef05f24c94f63590484
+Author: Daniel Ra <dra1@jhu.edu>
+Date:   Wed Oct 19 19:44:44 2022 -0400
+
+    ppm_io.c starter code
+
+commit aa3de5c18389524749ccfe79c8927eb4bada5f91
+Author: Daniel Ra <dra1@jhu.edu>
+Date:   Wed Oct 19 19:44:20 2022 -0400
+
+    img_cmp.c starter code
+
+commit 1f8281de96b682ab871cf75fa3fa95f016e11c26
+Author: Daniel Ra <dra1@jhu.edu>
+Date:   Wed Oct 19 19:43:53 2022 -0400
+
+    image_manip.h starter code
+
+commit e8619c78c37aab213e033a5f0157a3d8093befdc
+Author: Daniel Ra <dra1@jhu.edu>
+Date:   Wed Oct 19 19:43:17 2022 -0400
+
+    image_manip.c starter code
+
+commit af8835ac59cba9d33dec36c7568375f9e40a4b37
+Author: Daniel Ra <dra1@jhu.edu>
+Date:   Wed Oct 19 19:42:54 2022 -0400
+
+    data/ directory starter
+
+commit 0088ea39a59bddcaa615f384056abb360b50b3e5
+Author: Daniel Ra <dra1@jhu.edu>
+Date:   Wed Oct 19 19:42:27 2022 -0400
+
+    checkerboard.c starter code
