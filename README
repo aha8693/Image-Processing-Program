@@ -1,4 +1,5 @@
-This program will be an image processing program. 
+This is my Image Processing Program using C. 
+
 It will have a command-line-based user interface (UI), so there will be no graphical interface, 
 and the range of operations will be limited, but the algorithms you will use are similar to the ones used in programs like Photoshop or GIMP.
 
