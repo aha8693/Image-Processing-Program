@@ -1,0 +1,8 @@
+# Image-Processing-Program
+
+This is my Image Processing Program using C. 
+
+It will have a command-line-based user interface (UI), so there will be no graphical interface, 
+and the range of operations will be limited, but the algorithms you will use are similar to the ones used in programs like Photoshop or GIMP.
+
+At a basic level, the program will be able to read image files from disk, perform one of a variety of image processing tasks, and then write the result back to disk as a new image file. 
