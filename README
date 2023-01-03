@@ -1,6 +1,6 @@
 # Image-Processing-Program
 
-This is my Image Processing Program using C. 
+This is my Image Processing Program using C: Designed an algorithm that imitates Photoshop and GIMP - performing various image processing tasks using command-line-based user interface (UI). 
 
 It will have a command-line-based user interface (UI), so there will be no graphical interface, 
 and the range of operations will be limited, but the algorithms you will use are similar to the ones used in programs like Photoshop or GIMP.
